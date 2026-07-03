@@ -81,6 +81,20 @@ This command modifies the installer to let you skip internet connectivity and lo
 - Remove LinkedIn
 - Remove WhatsApp
 
+## CTT Winutil
+```irm https://christitus.com/win | iex```
+### Tweaks
+- Essential Tweaks > ConsumerFeatures Disable -> On
+- Essential Tweaks > Delivery Optimization Disable -> On
+- Essential Tweaks > End Task with Right Click Enable -> On
+- Essential Tweaks > Location Tracking Disable -> On
+- Essential Tweaks > Microsoft Store Recommended Search Results Disable -> On
+- Essential Tweaks > Telemetry Disable -> On
+- Advanced Tweaks > Visual Effects Set to Best Performance -> On
+- Advanced Tweaks > Windows AI Disable and Remove -> On
+- Run Tweaks
+- Customize Preferences > BSoD Verbose Mode -> On
+- Customize Preferences > Logon Verbose Mode -> On
 
 
 ## VM Specific
