@@ -96,6 +96,223 @@ This command modifies the installer to let you skip internet connectivity and lo
 - Customize Preferences > BSoD Verbose Mode -> On
 - Customize Preferences > Logon Verbose Mode -> On
 
+## O&O Shut Up
+### Current User
+
+#### Privacy
+- Disable and reset Advertising ID and info -> On
+- Disable transmission of typing information -> On
+- Disable suggestions in the timeline -> On
+- Disable suggestions in Start Disable tips, tricks, and suggestions when using Windows -> On
+- Disable showing suggested content in the Settings app -> On
+- Disable the possibility of suggesting to finish the setup of the device -> On
+#### Activity History and Clipboard
+- Disable Storage of Clipboard History -> On
+#### App Privacy
+- Disable App Access to user account information -> On
+- Disable Windows Tracking of app starts -> On
+- Disable App Access to diagnostic information -> On
+#### Microsoft Edge (new version based on Chromium)
+- Disable tracking in the web -> On
+- Disable check for saved payment methods by sites -> On
+- Disable personalizing advertising, search, news and other services -> On
+- Disable automatic completion of web addresses in address bar -> On
+- Disable user feedback in toolbar Disable storing and autocompleting of credit card data on websites -> On
+- Disable form suggestions Disable suggestions from local providers -> On
+- Disable search and website suggestions -> On
+- Disable shopping assistant in Microsoft Edge -> On
+- Disable Edge bar -> On
+- Disable Sidebar in Microsoft Edge -> On
+- Disable Enhanced Spell Checking -> On
+- Hide first run experience and splash screen -> On
+- Disable spotlight experiences and recommendations -> On
+- Disable automatic sign-in from web to browser -> On
+- Disable Bing Chat on new tab page -> On
+- Disable content on new tab page -> On
+- Disable Al-generated themes -> On
+- Disable built-in Al APIs for websites -> On
+- Disable inline Compose feature -> On
+- Disable Copilot access to page context -> On
+- Disable prompts to make Edge the default browser -> On
+- Disable default browser campaigns -> On
+- Disable diagnostic data collection -> On
+- Disable shopping assistant -> On
+- Hide Microsoft 365 Copilot chat icon -> On
+- Hide Microsoft Rewards -> On
+- Disable recommendations in settings -> On
+- Disable cloud-based tab services -> On
+- Disable text prediction in forms -> On
+- Disable visual search -> On
+- Disable Al-powered history search -> On
+- Disable Edge Secure Network (built-in VPN) -> On
+- Allow user control of local Al features -> On
+- Disable use of web service to resolve navigation errors -> On
+- Hide default top sites on new tab page -> On
+- Hide Adobe Acrobat subscription button -> On
+#### Microsoft Edge (legacy version)
+- Disable tracking in the web -> On
+- Disable Page Prediction -> On
+- Disable Search and Website Suggestions -> On
+- Disable Cortana in Microsoft Edge -> On
+- Disable Showing Search History -> On
+#### Synchronization of Windows Settings 
+- Disable synchronization of all settings -> On
+- Disable synchronization of design settings -> On
+- Disable synchronization of browser settings -> On
+- Disable synchronization of credentials (passwords) -> On
+- Disable synchronization of language settings -> On
+- Disable synchronization of accessibility settings -> On
+- Disable synchronization of advanced Windows settings-> On
+#### Cortana (Personal Assistant) 
+- Disable and reset Cortana -> On
+- Disable Input Personalization -> On
+#### Copilot & Windows AI
+- Disable the Windows Copilot -> On
+- Disable the Copilot button from the taskbar -> On
+- Disable Bing Chat eligibility in Windows Copilot -> On
+- Disable Windows Copilot+ Recall -> On
+#### User Behavior 
+- Disable diagnostic data from customizing user experiences -> On
+#### Windows Explorer 
+- Disable occassionally showing app suggestions in Start menu -> On
+- Do not show recently opened items in Jump Lists on "Start" or the taskbar -> On
+- Disable ads in Windows Explorer/OneDrive -> On
+#### Lock Screen 
+- Disable Windows Spotlight -> On
+- Disable fun facts, tips, tricks, and more on your lock screen -> On
+- Disable notifications on lock screen -> On
+#### Mobile Devices 
+- Disable access to mobile devices -> On
+- Disable Phone Link app -> On
+- Disable showing suggestions for using mobile devices with Windows -> On
+#### Search
+- Disable search with Al in search box -> On
+- Disable extension of Windows search with Bing -> On
+#### Taskbar
+- Disable search box in task bar -> On
+- Disable People icon in the taskbar -> On
+- Disable "Meet now" in the task bar -> On
+#### Miscellaneous
+- Disable feedback reminders -> On
+- Disable automatic installation of recommended Windows Store Apps -> On
+- Disable tips, tricks, and suggestions while using Windows -> On
+- Disable Windows Media Player Diagnostics -> On
+- Disable the desktop icon for information on "Windows Spotlight" -> On
+
+### Local Machine
+#### Privacy
+- Disable sharing of handwriting data -> On
+- Disable sharing of handwriting error reports -> On
+- Disable Inventory Collector -> On
+- Disable camera in logon screen -> On
+- Disable and reset Advertising ID and info -> On
+- Disable advertisements via Bluetooth -> On
+- Disable the Windows Customer Experience Improvement Program -> On
+- Disable backup of text messages into the cloud -> On
+- Disable Windows Error Reporting -> On
+- Disable biometrical features -> On
+#### Activity History and Clipboard
+- Disable recordings of user activity -> On
+- Disable storing users' activity history -> On
+- Disable the submission of user activities to Microsoft -> On
+- Disable storage of clipboard history -> On
+- Disable the transfer of the clipboard to other devices via the cloud -> On
+#### App Privacy
+- Disable app access to user account information -> On
+- Disable app access to diagnostics information -> On
+- Disable app access to device location -> On
+#### Security
+- Disable password reveal button -> On
+- Disable user steps recorder -> On
+- Disable telemetry -> On
+#### Microsoft Edge (new version based on Chromium)
+- Disable tracking in the web -> On
+- Disable check for saved payment methods by sites -> On
+- Disable personalizing advertising, search, news and other services -> On
+- Disable automatic completion of web addresses in address bar -> On
+- Disable user feedback in toolbar -> On
+- Disable storing and autocompleting of credit card data on websites -> On
+- Disable form suggestions -> On
+- Disable suggestions from local providers -> On
+- Disable search and website suggestions -> On
+- Disable shopping assistant in Microsoft Edge -> On
+- Disable Edge bar -> On
+- Disable Sidebar in Microsoft Edge -> On
+- Disable Enhanced Spell Checking -> On
+- Hide first run experience and splash screen -> On
+- Disable spotlight experiences and recommendations -> On
+- Disable automatic sign-in from web to browser -> On
+- Disable Bing Chat on new tab page -> On
+- Disable content on new tab page -> On
+- Disable Al-generated themes -> On
+- Disable built-in Al APIs for websites -> On
+- Disable inline Compose feature -> On
+- Disable Copilot access to page context -> On
+- Disable prompts to make Edge the default browser -> On
+- Disable default browser campaigns -> On
+- Disable diagnostic data collection -> On
+- Disable shopping assistant -> On
+- Hide Microsoft 365 Copilot chat icon -> On
+- Hide Microsoft Rewards -> On
+- Disable recommendations in settings -> On
+- Disable cloud-based tab services -> On
+- Disable text prediction in forms -> On
+- Disable visual search -> On
+- Disable Al-powered history search -> On
+- Disable Edge Secure Network (built-in VPN) -> On
+- Allow user control of local Al features -> On
+- Disable use of web service to resolve navigation errors -> On
+- Disable suggestion of similar sites when website cannot be found -> On
+- Hide default top sites on new tab page -> On
+- Hide Adobe Acrobat subscription button -> On
+#### Microsoft Edge (legacy version)
+- Disable automatic completion of web addresses -> On
+#### Cortana (Personal Assistant)
+- Disable online speech recognition -> On
+- Cortana and search are disallowed to use location -> On
+- Disable web search from Windows Desktop Search -> On
+- Disable display web results in Search -> On
+- Disable download and updates of speech recognition and speech synthesis models -> On
+- Disable cloud search -> On
+- Disable Cortana above lock screen -> On
+- Disable the search highlights in the taskbar -> On
+#### Copilot & Windows Al
+- Disable the Windows Copilot -> On
+- Disable the provision of recall functionality to all users -> On
+- Disable the Image Creator in Microsoft Paint -> On
+- Disable Windows Copilot+ Recall -> On
+- Disable Cocreator in Microsoft Paint -> On
+- Disable Al-powered image fill in Microsoft Paint -> On
+#### Location Services
+- Disable functionality to locate the system -> On
+- Disable scripting functionality to locate the system -> On
+- Disable sensors for locating the system and its orientation -> On
+- Disable Windows Geolocation Service -> On
+#### User Behavior
+- Disable application telemetry -> On
+- Disable diagnostic data from customizing user experiences -> On
+- Disable diagnostic log collection -> On
+- Disable downloading of OneSettings configuration settings -> On
+#### Windows Update
+- Disable Windows Update via peer-to-peer -> On
+- Disable updates to the speech recognition and speech synthesis modules -> On
+#### Windows Explorer
+- Disable OneDrive access to network before login -> On
+- Disable Microsoft OneDrive -> On
+#### Mobile Devices
+- Disable connection to PC to mobile devices -> On
+#### Taskbar
+- Disable People icon in the taskbar -> On
+- Disable "Meet now" in the task bar -> On
+#### Miscellaneous
+- Disable feedback reminders -> On
+- Disable remote assistant connections to this computer -> On
+- Disable remote conenctions to this computer -> On
+#### Gaming
+- Disable Xbox Game Bar and DVR -> On
+
+### AI
+- The copilot functionality is activated and data can be recorded.
 
 ## VM Specific
 ### Common
