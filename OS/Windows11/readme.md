@@ -417,3 +417,58 @@ exit $failure_count
 1. Disable Windows Hello (Settings > Accounts > Sign-in Options > "For improved security, only allow Windows Hello sign-in for Microsoft accounts on this device (Recommended)." -> Off
 ### UTM
 ### Hyper-V
+
+
+
+## TODO: Additional Windows 11 Performance Tweaks - need evaluated
+
+### Services (services.msc)
+- [ ] Disable/set to Manual: SysMain (Superfetch) — test on SSD
+- [ ] Disable/set to Manual: DiagTrack (Connected User Experiences and Telemetry)
+- [ ] Disable/set to Manual: Windows Search (if unused, esp. on VM disks)
+- [ ] Disable/set to Manual: Print Spooler (if no printer)
+- [ ] Disable/set to Manual: Fax
+- [ ] Disable/set to Manual: Downloaded Maps Manager
+- [ ] Disable/set to Manual: Remote Registry
+
+### Startup Apps
+- [ ] Review Task Manager > Startup apps tab (separate from Settings > Apps > Startup)
+
+### Power Plan
+- [ ] Set Ultimate/High Performance plan, or Settings > System > Power > "Best Performance"
+- [ ] Disable USB selective suspend (if peripheral issues)
+
+### Fast Startup / Hibernation
+- [ ] Run `powercfg /h off` to disable hibernation + Fast Startup
+
+### Storage
+- [ ] Enable Storage Sense (Settings > Storage)
+
+### Windows Optional Features to Remove
+- [ ] Internet Explorer mode
+- [ ] Media Features
+- [ ] XPS Viewer
+- [ ] Windows Fax and Scan
+- [ ] Steps Recorder
+- [ ] Work Folders Client
+
+### Search Indexing
+- [ ] Control Panel > Indexing Options — exclude unused drives/folders (esp. VM virtual disks)
+
+### Background Apps
+- [ ] Settings > Apps > Installed apps — review per-app "let this app run in background"
+
+### Windows Defender
+- [ ] Schedule scans for idle hours
+- [ ] (Optional, security tradeoff) Add exclusions for dev/build folders
+
+### GPU / Game Bar
+- [ ] Enable Hardware-Accelerated GPU Scheduling (Settings > Display > Graphics)
+- [ ] Fully disable Game Bar/Game DVR (not just controller-launch)
+
+### VM Specific (fill out empty sections in main doc)
+- [ ] Disable Windows Update auto-restart scheduling in VMs
+- [ ] Use fixed-size VHD/VHDX instead of dynamically-expanding
+- [ ] Enable Hyper-V enhanced session mode
+- [ ] Install/verify VirtIO or UTM guest tools for disk + network throughput
+- [ ] Right-size vCPU/RAM to actual host headroom (avoid over-provisioning)
